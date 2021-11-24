@@ -1,0 +1,74 @@
+.main {
+    width: 100vw;
+    /* background-color: ; */
+    background-image: linear-gradient(rgb(2, 1, 1), rgb(102, 102, 102));
+    height: 20rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* background-color: yellowgreen; */
+    width: 50rem;
+    margin: 60px 0 0 100px;
+    color: #fff;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.account-details {
+    margin-left: 3rem;
+}
+
+#username {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.top-artist {
+    margin-top: 10px;
+    /* width: 100vw; */
+    background-color: rgb(28, 28, 36);
+    padding: 10px;
+    height: 50vh;
+    color: #fff;
+}
+
+.list-of-artist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.play {
+    display: none;
+    transition: all linear 0.10s;
+}
+
+.box {
+    transition: all linear 0.5s;
+    height: 15rem;
+}
+
+.box:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.box:hover .play {
+    display: block;
+    width: 50px;
+    position: relative;
+    top: -5rem;
+    left: 12rem;
+}
+
+.artist-pic {
+    border-radius: 50%;
+    padding: 5px;
+}
